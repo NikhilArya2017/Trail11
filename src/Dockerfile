@@ -1,7 +1,7 @@
 From openjdk
 
-WORKDIR /app
-CMD 
+WORKDIR /app 
 COPY . /app
-# RUN javac /First/Frr.java
+CMD ["ls"]
+RUN javac /First/Frr.java
 # CMD ["java","First/Frr.java"]
