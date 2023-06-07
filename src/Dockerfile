@@ -1,5 +1,6 @@
 From openjdk
-cmd["ls"]
+CMD ["ls"]
+CMD ["pwd"]
 # WORKDIR /First
 # COPY ./First
 # RUN javac Frr.java
