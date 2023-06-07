@@ -2,6 +2,6 @@ From openjdk
 
 WORKDIR /First
 CMD ["ls"]
-# COPY ./First
-# RUN javac Frr.java
+COPY /First
+RUN javac /First/Frr.java
 # CMD ["java","First/Frr.java"]
