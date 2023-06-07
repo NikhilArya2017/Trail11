@@ -1,5 +1,5 @@
 From openjdk
-
+echo "HI"
 WORKDIR /app 
 COPY . /app
 RUN javac /app/First/Frr.java
