@@ -2,5 +2,5 @@ From openjdk
 
 WORKDIR /app
 # COPY ./app
-RUN javac Frr.java
-CMD ["java","Frr.java"]
+RUN javac First/Frr.java
+CMD ["java","First/Frr.java"]
